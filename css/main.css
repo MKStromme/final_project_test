@@ -1,0 +1,113 @@
+*{
+	font-size: large;
+	font-family: sans-serif;
+	
+	padding: 0;
+	margin: 0;
+}
+
+.main-header{
+	
+	height: 5vh;
+	width: 100%;
+	
+	background-color: red;
+	
+	position: fixed;
+	
+	line-height: 5vh;
+	
+}
+
+#home{
+	
+	float: left;
+	
+	text-align: center;
+	
+	height: 100%;
+	width: 10%;
+	
+}
+
+#home a{
+	
+	float: left;
+	
+	height: 100%;
+	width: 100%;
+	
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+#home a:focus{
+	
+	background-color: #CCC;
+	
+}
+
+.navbar{
+
+	float: right;
+	height: 100%;
+	
+	width: 70%;
+
+}
+
+.navbar-element{
+	
+	height: 100%;
+	
+	width: 20%;
+	
+	text-align: center;
+	float: left;
+	
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+.navbar-element:focus{
+	
+	background-color:#CCC;
+	
+}
+
+main{
+	
+	top: 5vh;
+	height: 95vh;
+	
+	width: 100%;
+	
+	overflow: scroll;
+	
+	position: fixed;
+	
+	background-image: url("../bilder/tomat.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+#lander{
+	
+	height: 100%;
+	
+}
+
+#inner-lander{
+	
+	
+	
+}
+
+#problem{
+	
+	height: 100%;
+	
+}
