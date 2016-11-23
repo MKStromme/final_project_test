@@ -1,6 +1,6 @@
 *{
 	font-size: large;
-	font-family: sans-serif;
+	font-family: verdana, sans-serif;
 	
 	padding: 0;
 	margin: 0;
@@ -11,7 +11,8 @@
 	height: 5vh;
 	width: 100%;
 	
-	background-color: red;
+	background-color: #FFFFFF;
+	color: #000000;
 	
 	position: fixed;
 	
@@ -23,7 +24,7 @@
 	
 	float: left;
 	
-	text-align: center;
+	text-align: left;
 	
 	height: 100%;
 	width: 10%;
@@ -38,14 +39,15 @@
 	width: 100%;
 	
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #000000;
 	
 }
 
 #home a:focus{
-	
-	background-color: #CCC;
-	
+	background-color: #EEEEEE;
+}
+#home a:hover{
+	background-color: #EEEEEE;
 }
 
 .navbar{
@@ -67,14 +69,15 @@
 	float: left;
 	
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #000000;
 	
 }
 
 .navbar-element:focus{
-	
-	background-color:#CCC;
-	
+	background-color: #EEEEEE;
+}
+.navbar-element:hover{
+	background-color: #EEEEEE;
 }
 
 main{
@@ -109,5 +112,24 @@ main{
 #problem{
 	
 	height: 100%;
+    background-color: #f2f2f2;
 	
+	display: flex;
+	justify-content: center;
+	
+}
+
+#inner-problem{
+	
+	background: #FFFFFF;
+	
+	width: 60%;
+	align-self: center;
+	
+}
+
+#inner-problem h1{
+
+	text-align: center;
+
 }
