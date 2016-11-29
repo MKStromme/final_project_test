@@ -21,6 +21,8 @@ p {
 
 li {
 	margin: 1em;
+	font-size: large;
+	line-height: 150%;
 }
 
 .main-header {
@@ -133,16 +135,20 @@ main {
 	text-decoration: none;
 }
 
+.article-content {
+	background-color: #FFFFFF;
+	color: #000000;
+	width: 60%;
+	margin: auto;
+	padding: 2em;
+}
+
 #problem {
     background-color: #f2f2f2;
 	padding: 10vh 0 4em;
 }
 
 #inner-problem {
-	background: #FFFFFF;
-	width: 60%;
-	margin: auto;
-	padding: 2em;
 }
 
 #inner-problem img {
@@ -198,11 +204,6 @@ main {
 }
 
 #inner-solution {
-	background-color: #FFFFFF;
-	color: #000000;
-	width: 60%;
-	margin: auto;
-	padding: 2em;
 }
 
 #inner-solution img {
@@ -220,24 +221,16 @@ main {
 }
 
 #inner-how {
-	background-color: #FFFFFF;
-	color: #000000;
-	width: 60%;
-	margin: auto;
-	padding: 2em;
 }
 
 #accessibility {
 	background-color: #16a085;
-	color: #FFFFFF;
 	padding: 10vh 0 2em;
 }
 
 #inner-accessibility {
 	background-color: #0b4f42;
-	width: 90%;
-	margin: auto;
-	padding: 2em;
+	color: #fff;
 }
 
 #referances {
@@ -246,11 +239,8 @@ main {
 	padding: 10vh 0 4em;
 }
 
-#inner-referances {
-	background: rgba(255, 255, 255, 0.90);    
-	width: 80%;
-    margin: auto;
-	padding: 2em;
+#inner-referances ol {
+	padding-left: 20px;
 }
 
 .floatfix {
@@ -307,25 +297,9 @@ main {
 		font-size: 1em;
 	}
 
-	#inner-problem{		
+	.article-content {
 		width: 100%;
 		padding-left: 0;
-		padding-right: 0;		
-	}
-
-	#inner-how{		
-		width: 100%;
-		padding-left: 0;
-		padding-right: 0;		
-	}
-
-	#inner-accessibility{
-		width: auto;
-	}
-
-	#inner-solution{
-		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
+		padding-right: 0;	
 	}
 }
