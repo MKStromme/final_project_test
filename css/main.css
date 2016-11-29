@@ -13,6 +13,7 @@ h1 {
 
 h2 {
 	font-size: 150%;
+	line-height: 150%;
 }
 
 p {
@@ -120,7 +121,6 @@ main {
 
 #inner-lander {
 	margin: 15vh auto 10vh;
-	text-shadow: .2em .2em #000000;
 }
 
 #inner-lander img {
@@ -365,6 +365,8 @@ sup {
 
 	#inner-lander h2{
 		font-size: 1em;
+		line-height: 150%;
+		width: 80%;
 	}
 
 	.article-content {
