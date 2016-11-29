@@ -38,7 +38,7 @@ li{
 	
 	top: 0;
 	
-	height: 10vh;
+	max-height: 10vh;
 	width: 100%;
 	
 	background-color: #FFFFFF;
@@ -83,14 +83,14 @@ li{
 .navbar{
 
 	float: right;
-	height: 100%;
+	max-height: 10vh;
 	
 	width: 70%;
 
 }
 .navbar-element{
 	
-	height: 100%;
+	height: 10vh;
 	
 	width: 20%;
 	
@@ -132,6 +132,7 @@ main{
 	
 	padding-top: 10vh;
 	height: 90vh;
+	width: 100%;
 	
 	background-image: url("../bilder/phoneLander.png"), url("../bilder/blurryBackground.jpg");
 	background-attachment: scroll, fixed;
@@ -161,6 +162,8 @@ main{
 	
 	font-size: 6em;
 	margin: 0;
+	
+	word-wrap: break-word;
 	
 }
 
@@ -355,6 +358,16 @@ main{
 		width: 100%;
 		clear: both;
 		
+		max-height: 0;
+		overflow: hidden;
+		
+	}
+	
+	.navbar-element{
+		
+		width: 100%;
+		background-color: #FFFFFF;
+		
 	}
 
 	#menu-button{
@@ -363,23 +376,52 @@ main{
 		
 	}
 	
-	#menu-button:active ~ .navbar-element{
+	#menu-button:hover ~ .navbar{
 		
-		display: initial;
-		
-	}
-	
-	#menu-button:hover ~ .navbar-element{
-		
-		display: initial;
+		max-height: none;
 		
 	}
 	
-	.navbar-element{
+	#menu-button:focus ~ .navbar{
+		
+		max-height: none;
+	
+	}
+	
+	.navbar-element:focus < .navbar{
+	
+		max-height: none;
+	
+	}
+	
+	.pact-examples{
 		
 		width: 100%;
-		display: none;
 		
+	}
+	
+	#inner-problem{
+		
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+	
+	#inner-how{
+		
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+	
+	#inner-solution{
+		
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	
 	}
 	
 }
