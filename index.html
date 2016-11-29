@@ -1,94 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>FoodWiz</title>
-		<meta charset="UTF-8">
-		<link type="text/css" rel="stylesheet" href="./css/main.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<header class="main-header">
-			<span id="home"><a href="#">Food<b>Wiz</b></a></span>
-			<span id="menu-button" class="navbar-element" title="Show Menu" tabindex="0">Menu</span>
-			<label for="menu-mobile-toggle" id="menu-mobile-label" class="navbar-element">Menu</label>  
-			<input type="checkbox" id="menu-mobile-toggle"/>  
-			<nav class="navbar">
-				<a href="#problem" class="navbar-element" title="The Problem With Food Labels"><span>Problem</span></a>
-				<a href="#target" class="navbar-element" title="Our Target Group"><span>Target group</span></a>
-				<a href="#solution" class="navbar-element" title="Our Solution"><span>Solution</span></a>
-				<a href="#how" class="navbar-element" title="How It Works"><span>How it works</span></a>
-				<a href="#accessibility" class="navbar-element" title="Accessibility"><span>Accessibility</span></a>
-			</nav>
-		</header>
-		<main>
-			<section id="lander">
-				<article id="inner-lander">
-					<h1><img src="./bilder/apple.png">FoodWiz</h1>
-					<h2>The label scanner which gives you exactly the information you need.</h2>
-				</article>
-			</section>
 
-			<section id="problem">
-				<article id="inner-problem" class="article-content">
-					<img src="./bilder/problemImg.png">
-					<h1>The Problem With Food Labels</h1>
-					<p>They say 'we are what we eat', 
-					but how are we supposed to know what we're eating, 
-					when food lables on store products are hard to understand, 
-					difficult to read, 
-					and often don't contain all the information we need?</p>
-					<p>For most people, 
-					knowing exactly what is in the food they're eating, 
-					isn't that important. 
-					For others, 
-					however, 
-					it's crucial, 
-					and eating the wrong thing can often lead to illnesses, 
-					or in some cases, 
-					even death.</p>
-					<p>Many people who live with disabilities, 
-					intellectual and/or physical, 
-					are required to pay extra attention to what the products they buy contain. 
-					Some might suffer from allergies to specific ingredients while others might have special dietary needs due to sickness or disability.</p>
-					<p>Reseach have found that those who are suffering from intellectual disabilities often also have problems related to nutrition and need to be extra attentive to what they eat on a daily basis. 
-						<sup>
+<head>
+    <title>FoodWiz</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <span id="home"><a href="#">Food<b>Wiz</b></a></span>
+        <span id="menu-button" class="navbar-element" title="Show Menu" tabindex="0">Menu</span>
+        <label for="menu-mobile-toggle" id="menu-mobile-label" class="navbar-element">Menu</label>
+        <input type="checkbox" id="menu-mobile-toggle" />
+        <nav class="navbar">
+            <a href="#problem" class="navbar-element" title="The Problem With Food Labels"><span>Problem</span></a>
+            <a href="#target" class="navbar-element" title="Our Target Group"><span>Target group</span></a>
+            <a href="#solution" class="navbar-element" title="Our Solution"><span>Solution</span></a>
+            <a href="#how" class="navbar-element" title="How It Works"><span>How it works</span></a>
+            <a href="#accessibility" class="navbar-element" title="Accessibility"><span>Accessibility</span></a>
+        </nav>
+    </header>
+    <main>
+        <section id="lander">
+            <article id="inner-lander">
+                <h1><img src="./bilder/apple.png">FoodWiz</h1>
+                <h2>The label scanner which gives you exactly the information you need.</h2>
+            </article>
+        </section>
+
+        <section id="problem">
+            <article id="inner-problem" class="article-content">
+                <img src="./bilder/problemImg.png">
+                <h1>The Problem With Food Labels</h1>
+                <p>They say 'we are what we eat', but how are we supposed to know what we're eating, when food lables on store products are hard to understand, difficult to read, and often don't contain all the information we need?</p>
+                <p>For most people, knowing exactly what is in the food they're eating, isn't that important. For others, however, it's crucial, and eating the wrong thing can often lead to illnesses, or in some cases, even death.</p>
+                <p>Many people who live with disabilities, intellectual and/or physical, are required to pay extra attention to what the products they buy contain. Some might suffer from allergies to specific ingredients while others might have special dietary needs due to sickness or disability.</p>
+                <p>Reseach have found that those who are suffering from intellectual disabilities often also have problems related to nutrition and need to be extra attentive to what they eat on a daily basis.
+                    <sup>
 							<a href="#referanse_jakobsen" aria-label="link to full reference" class="ref">
 								[1]
 							</a>
-						</sup>
-					For them going, through a package description might prove difficult due to cognitive impairment, 
-					and generally speaking, 
-					the small print on lables combined with excessive information makes it a strenuous and time consuming task to skim through it all. 
-					With FoodWiz, 
-					you are now just one scan away from getting exactly the information you need, 
-					eliminating the unnecessary need to decipher food labels.</p>
-				</article>
-			</section>
+						</sup> For them going, through a package description might prove difficult due to cognitive impairment, and generally speaking, the small print on lables combined with excessive information makes it a strenuous and time consuming task to skim through it all. With FoodWiz, you are now just one scan away from getting exactly the information you need, eliminating the unnecessary need to decipher food labels.</p>
+            </article>
+        </section>
 
-			<section id="target">
-				<article id="target-header">
-					<img src="./bilder/targetImg.png">
-					<h1>Our Target Group</h1>
-					<hr>
-					<p>Our solution is aimed at those who need to pay extra attention to their food intake and nutrition due to their disability, 
-					including potential caretakers. 
-					The following examples illustrate some different disabilities which relates to the need of dietary awareness.
-					</p>
-				</article>
-					<section id="pact-examples">
-						<div class="readmore-area">
-							<input type="checkbox" class="readmore-input" id="readmore_1">
-							<h2>Example 1: Downs Syndrome</h2>
-							<p>
-								Downs Syndrome is a genetic condition where they are born with an extra chromosome which affects their physical and intellectual development. 
-								<sup><a href="#referanse_nh2015a" aria-label="link to full reference" class="ref">[2]</a></sup>
-								Many people suffering from Downs Syndrome also suffer from obesity. 
-								This can be due to hypothyroidism or due to inactivity which is an effect of their syndrome.
-								<sup><a href="#referanse_ndss" aria-label="link to full reference" class="ref">[3]</a></sup>
-								They also are more often prone to coeliac disease compared to the rest of the population.
-								<sup><a href="#referanse_downssa" aria-label="link to full reference" class="ref">[4]</a></sup>
+        <section id="target">
+            <article id="target-header">
+                <img src="./bilder/targetImg.png">
+                <h1>Our Target Group</h1>
+                <hr>
+                <p>Our solution is aimed at those who need to pay extra attention to their food intake and nutrition due to their disability, including potential caretakers. The following examples illustrate some different disabilities which relates to the need of dietary awareness.
+                </p>
+            </article>
+            <section id="pact-examples">
+                <div class="readmore-area">
+                    <input type="checkbox" class="readmore-input" id="readmore_1">
+                    <h2>Example 1: Downs Syndrome</h2>
+                    <p>
+                        Downs Syndrome is a genetic condition where they are born with an extra chromosome which affects their physical and intellectual development.
+                        <sup><a href="#referanse_nh2015a" aria-label="link to full reference" class="ref">[2]</a></sup> Many people suffering from Downs Syndrome also suffer from obesity. This can be due to hypothyroidism or due to inactivity which is an effect of their syndrome.
+                        <sup><a href="#referanse_ndss" aria-label="link to full reference" class="ref">[3]</a></sup> They also are more often prone to coeliac disease compared to the rest of the population.
+                        <sup><a href="#referanse_downssa" aria-label="link to full reference" class="ref">[4]</a></sup>
 
-								<span class="readmore-content">
+                        <span class="readmore-content">
 									Some people with Downs syndrome are however able to live on their own and care for themselves, 
 									but due to a weaker sense of judgement this often contributes to more weight gain. 
 									<sup><a href="#referanse_jakobsen" aria-label="link to full reference" class="ref">[1]</a></sup>
@@ -97,21 +74,17 @@
 									<sup><a href="#referanse_buckley" aria-label="link to full reference" class="ref">[5]</a></sup>
 									From this we can understand that a person with Downs Syndrome has more challenges when it comes to nutrition and in understanding package labeling.
 								</span>
-								<label for="readmore_1" class="readmore-label"></label>
-							</p>
-						</div>
-						<div class="readmore-area">
-							<input type="checkbox" class="readmore-input" id="readmore_2">
-							<h2>Example 2: Type 2 Diabetes</h2>
-							<p>
-								Type 2 diabetes can be a genetically inherited or a lifestyle condition. 
-								Usually caused by inactivity and a sugar rich diet. 
-								This causes weight gain which again causes insufficient production of insulin by the pancreas.
-								<sup><a href="#referanse_nh2014" aria-label="link to full reference" class="ref">[6]</a></sup>
-								Type 2 diabetes can be regulated and treated with a healthy diet as well as a strict regulation of sugar intake. 
-								By regulating the amount of simple carbohydrates such as pasta and food with high sugar content
+                        <label for="readmore_1" id="readmore1" class="readmore-label" onclick="scrollup(0)"></label>
+                    </p>
+                </div>
+                <div class="readmore-area">
+                    <input type="checkbox" class="readmore-input" id="readmore_2">
+                    <h2>Example 2: Type 2 Diabetes</h2>
+                    <p>
+                        Type 2 diabetes can be a genetically inherited or a lifestyle condition. Usually caused by inactivity and a sugar rich diet. This causes weight gain which again causes insufficient production of insulin by the pancreas.
+                        <sup><a href="#referanse_nh2014" aria-label="link to full reference" class="ref">[6]</a></sup> Type 2 diabetes can be regulated and treated with a healthy diet as well as a strict regulation of sugar intake. By regulating the amount of simple carbohydrates such as pasta and food with high sugar content
 
-								<span class="readmore-content">
+                        <span class="readmore-content">
 									which lead to glucose spikes, 
 									and replacing them with complex carbohydrate which can be found in vegetables and leads to a regular glucose levels, 
 									stabilizing the HbA1c levels long-term, thus preventing nervedamage. 					
@@ -124,22 +97,17 @@
 									We can imagine that someone diagnosed with age-related diabetes will have to alter their eating habits drastically. 
 									They will have to read countless of labels to figure out what they can eat and how much they can eat of it.
 								</span>
-								<label for="readmore_2" class="readmore-label"></label>
-							</p>
-						</div>
-						<div class="readmore-area">
-							<input type="checkbox" class="readmore-input" id="readmore_3">
-							<h2>Example 3: Food Allergies</h2>
-							<p>
-								Food allergies are quite common and can occur in many different ways. 
-								Some might be allergic to large amounts of certain foods while they can still eat small amounts of it. 
-								Others can get severe allergic reactions to even the smallest exposure. 
-								Allergies might change over the years. 
-								For example, 
-								allergies to milk is common among small children but they usually outgrow the allergy in time. 
-								<sup><a href="#referanse_nh2015b" aria-label="link to full reference" class="ref">[8]</a></sup>
+                        <label for="readmore_2" id="readmore1" class="readmore-label" onclick="scrollup(1)"></label>
+                    </p>
+                </div>
+                <div class="readmore-area">
+                    <input type="checkbox" class="readmore-input" id="readmore_3">
+                    <h2>Example 3: Food Allergies</h2>
+                    <p>
+                        Food allergies are quite common and can occur in many different ways. Some might be allergic to large amounts of certain foods while they can still eat small amounts of it. Others can get severe allergic reactions to even the smallest exposure. Allergies might change over the years. For example, allergies to milk is common among small children but they usually outgrow the allergy in time.
+                        <sup><a href="#referanse_nh2015b" aria-label="link to full reference" class="ref">[8]</a></sup>
 
-								<span class="readmore-content">
+                        <span class="readmore-content">
 									The only efficient way to  treat food allergy is by avoiding the food ones reacts to.
 									<sup><a href="#referanse_naf" aria-label="link to full reference" class="ref">[9]</a></sup>
 									We can imagine a family with a small child who has been diagnosed with lactose intolerance, 
@@ -151,139 +119,118 @@
 									it’s not enough for the family to just avoid the obvious dairy products, 
 									but will have to keep aware of the labels of their purchases.
 								</span>
-								<label for="readmore_3" class="readmore-label"></label>
-							</p>
-						</div>
-						<div class="floatfix"></div>
-					</section>
-			</section>
-
-			<section id="solution">
-				<article id="inner-solution" class="article-content">
-					<h1>Our Solution</h1>
-
-					<p>
-                    Our solution is FoodWiz, 
-					an app which lets you scan the barcode on your groceries when you are out shopping. 
-					The app will give you the specific information you are seeking which makes it easier for you to find a suitable product. 
-					The app also has adjustable settings to set according to your dietary needs.
-					</p>
-					<img src="Bilder/3DMain.png" alt="an image displaying three versions of the app in use. the left displaying its scan history, the middle displaying the scan function, and the right displaying the result page"> 
-				</article>
-			</section>
-
-			<section id="how">
-				<article id="inner-how" class="article-content">
-					<h1>How It Works</h1>
-					<p>
-                    You start by opening the app which leads you directly to the set-up menu for first time users, 
-					from there you can set your preferences in accordance with your needs. 
-					After putting in the needed data you’re ready to go. 
-					After the initial set up it will directly go to scan mode when you open the app.
-					</p>
-                    <p>
-					In settings you can alter how the app displays it’s feedback. 
-					For someone with a food allergy it will be sufficient to know if the products contains the ingredient they are avoiding or not. 
-					In this case a red cross will appear on the screen along with a short vibration to signalize that the products contains the ingredient. 
-					If the ingredient is not there it will display a green circle without vibration.
-					</p>
-					<p>
-					For someone who need to know the specific amount of e.g carbohydrates and how much of those are sugars, 
-					the app will display the specific numbers and information they need. 
-					The information is displayed with simple symbols which are easy to understand even for someone who does not understand the meaning of the text.
-					</p>
-					<p>
-                    In all these cases you are able to tap on the information sign for more detailed information as well as suggestions to similar products more suitable to your needs.
+                        <label for="readmore_3" id="readmore1" class="readmore-label" onclick="scrollup(2)"></label>
                     </p>
-                    <p> 
-					Our app FoodWiz is made with the cooperation of the largest food store chains in Norway, 
-					such as Tine, 
-					Orcla Foods and so on. 
-					With the approved data of these major companies the app can accurately display the needed data for the intended user. 
-					This way we secure accurate and reliable information which is continuously updated as products are altered.
-					</p>
-				</article>
-			</section>
+                </div>
+                <div class="floatfix"></div>
+            </section>
+        </section>
 
-			<section id="accessibility">
-				<article id="inner-accessibility" class="article-content">
-					<h1>Accessibility</h1>
-					<p>
-                    As this app is targeting people with various disabilities, 
-					we want to focus on a simple and easy to understand design.
-					</p>
-					<p>
-                    We have included features such as text to speech for those with difficulties to see or read. 
-					Through the use of simple icons along with the feedback we are including those with intellectual disabilities who might have trouble understanding what the numbers really mean. 
-					From our example above we can image that it might be difficult to understand what it means if a product contains 
-					“350kcal pr 100gr” for someone with Downs Syndrome. 
-					In the apps setting the person can set personal limit values in cooperation with their physician. 
-					This way a warning triangle might appear if the value exceeds a certain amount,	
-					while a red cross appears if it exceeds the maximum limit.
-					</p>
-				</article>
-			</section>
+        <section id="solution">
+            <article id="inner-solution" class="article-content">
+                <h1>Our Solution</h1>
 
-			<section id="references">
-				<article id="inner-references" class="article-content">
-					<h1>References</h1>
-					<ol>
-						<li id="referanse_jakobsen">
-							<a href="http://forskning.no/funksjonshemming-overvekt-politikk/2014/04/utviklingshemmede-spiser-seg-syke">
+                <p>
+                    Our solution is FoodWiz, an app which lets you scan the barcode on your groceries when you are out shopping. The app will give you the specific information you are seeking which makes it easier for you to find a suitable product. The app also has adjustable settings to set according to your dietary needs.
+                </p>
+                <img src="Bilder/3DMain.png" alt="an image displaying three versions of the app in use. the left displaying its scan history, the middle displaying the scan function, and the right displaying the result page">
+            </article>
+        </section>
+
+        <section id="how">
+            <article id="inner-how" class="article-content">
+                <h1>How It Works</h1>
+                <p>
+                    You start by opening the app which leads you directly to the set-up menu for first time users, from there you can set your preferences in accordance with your needs. After putting in the needed data you’re ready to go. After the initial set up it will directly go to scan mode when you open the app.
+                </p>
+                <p>
+                    In settings you can alter how the app displays it’s feedback. For someone with a food allergy it will be sufficient to know if the products contains the ingredient they are avoiding or not. In this case a red cross will appear on the screen along with a short vibration to signalize that the products contains the ingredient. If the ingredient is not there it will display a green circle without vibration.
+                </p>
+                <p>
+                    For someone who need to know the specific amount of e.g carbohydrates and how much of those are sugars, the app will display the specific numbers and information they need. The information is displayed with simple symbols which are easy to understand even for someone who does not understand the meaning of the text.
+                </p>
+                <p>
+                    In all these cases you are able to tap on the information sign for more detailed information as well as suggestions to similar products more suitable to your needs.
+                </p>
+                <p>
+                    Our app FoodWiz is made with the cooperation of the largest food store chains in Norway, such as Tine, Orcla Foods and so on. With the approved data of these major companies the app can accurately display the needed data for the intended user. This way we secure accurate and reliable information which is continuously updated as products are altered.
+                </p>
+            </article>
+        </section>
+
+        <section id="accessibility">
+            <article id="inner-accessibility" class="article-content">
+                <h1>Accessibility</h1>
+                <p>
+                    As this app is targeting people with various disabilities, we want to focus on a simple and easy to understand design.
+                </p>
+                <p>
+                    We have included features such as text to speech for those with difficulties to see or read. Through the use of simple icons along with the feedback we are including those with intellectual disabilities who might have trouble understanding what the numbers really mean. From our example above we can image that it might be difficult to understand what it means if a product contains “350kcal pr 100gr” for someone with Downs Syndrome. In the apps setting the person can set personal limit values in cooperation with their physician. This way a warning triangle might appear if the value exceeds a certain amount, while a red cross appears if it exceeds the maximum limit.
+                </p>
+            </article>
+        </section>
+
+        <section id="references">
+            <article id="inner-references" class="article-content">
+                <h1>References</h1>
+                <ol>
+                    <li id="referanse_jakobsen">
+                        <a href="http://forskning.no/funksjonshemming-overvekt-politikk/2014/04/utviklingshemmede-spiser-seg-syke">
 								Jakobsen, S. E. (2014). Utviklingshemmede spiser seg syke. From: forskning.no
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_nh2015a">
-							<a href="http://nhi.no/foreldre-og-barn/barn/sykdommer/down-syndrom-8022.html">
+                    <li id="referanse_nh2015a">
+                        <a href="http://nhi.no/foreldre-og-barn/barn/sykdommer/down-syndrom-8022.html">
 							Norsk Helseinformatikk. (2015a). Down syndrom. From: nhi.no
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_ndss">
-							<a href="http://www.ndss.org/Resources/Wellness/Nutrition/Recreation-Friendship21/">
+                    <li id="referanse_ndss">
+                        <a href="http://www.ndss.org/Resources/Wellness/Nutrition/Recreation-Friendship21/">
 							National Down Syndrome Society. (n.d). Weight Management for Adults with Down Syndrome. From: ndss.org
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_downssa">
-							<a href="http://www.downs-syndrome.org.uk/for-families-and-carers/health-and-well-being/coeliac-disease/">
+                    <li id="referanse_downssa">
+                        <a href="http://www.downs-syndrome.org.uk/for-families-and-carers/health-and-well-being/coeliac-disease/">
 							Down’s Syndrome Association. (n.d). For Families and Carers : Coeliac disease. From: downs-syndrome.org.uk
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_buckley">
-							<a href="https://www.down-syndrome.org/information/reading/overview/">
+                    <li id="referanse_buckley">
+                        <a href="https://www.down-syndrome.org/information/reading/overview/">
 							Buckley. S. (2001). Reading and writing for individuals with Down syndrome - An overview. From: down-syndrome.org
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_nh2014">
-							<a href="http://nhi.no/pasienthandboka/sykdommer/hormoner-og-nering/type-2-diabetes-oversikt-1153.html?page=1">
+                    <li id="referanse_nh2014">
+                        <a href="http://nhi.no/pasienthandboka/sykdommer/hormoner-og-nering/type-2-diabetes-oversikt-1153.html?page=1">
 							Norsk Helseinformatikk. (2014). Type 2-diabetes. From: nhi.no
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_diabetesforbundet">
-							<a href="http://diabetes.no/leksikon/h/hba1c/">
+                    <li id="referanse_diabetesforbundet">
+                        <a href="http://diabetes.no/leksikon/h/hba1c/">
 							Diabetesforbundet. (2016). HbA1c. From: diabetes.no
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_naf">
-							<a href="http://www.naaf.no/no/allergi/Mat-og-matoverfolsomhet/Nyttig_a_vite_om_allergisk_og_ikke-allergisk_matvareoverfolsomhet_NAAFs_faktaark/">
+                    <li id="referanse_naf">
+                        <a href="http://www.naaf.no/no/allergi/Mat-og-matoverfolsomhet/Nyttig_a_vite_om_allergisk_og_ikke-allergisk_matvareoverfolsomhet_NAAFs_faktaark/">
 							Astma- og Allergiforbundet. (2016). Allergisk og ikke-allergisk matvareoverfølsomhet. From: naaf.no
 							</a>
-						</li>
+                    </li>
 
-						<li id="referanse_nh2015b">
-							<a href="http://nhi.no/foreldre-og-barn/ungdom/sykdommer/melkeallergi-29676.html?page=6">
+                    <li id="referanse_nh2015b">
+                        <a href="http://nhi.no/foreldre-og-barn/ungdom/sykdommer/melkeallergi-29676.html?page=6">
 							Norsk Helseinformatikk. (2015b). Melkeallergi. From: nhi.no
 							</a>
-						</li>
-					</ol>
-				</article>
-			</section>
-		</main>
-	</body>
+                    </li>
+                </ol>
+            </article>
+        </section>
+    </main>
+</body>
+
 </html>
