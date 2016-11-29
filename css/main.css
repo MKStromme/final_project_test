@@ -59,6 +59,14 @@ li {
 	background-color: #EEEEEE;
 }
 
+#menu-mobile-label {
+	display: none;
+}
+
+#menu-mobile-toggle {
+	display: none;
+}
+
 .navbar {
 	float: right;
 	max-height: 10vh;
@@ -266,13 +274,28 @@ sup {
 		overflow: hidden;		
 	}
 
+	.navbar a {
+		height: 7vh;
+    	line-height: 7vh;
+	}
+
 	.navbar-element {		
 		width: 100%;
 		background-color: #FFFFFF;		
 	}
 
 	#menu-button {		
-		display: initial;		
+		display: none;		
+	}
+
+	#menu-mobile-label {
+		cursor: pointer;
+		content: "Menu >";
+		display: inline-block;
+	}
+
+	#menu-mobile-toggle:checked + .navbar {
+		max-height: none;	
 	}
 
 	#menu-button:hover ~ .navbar{		
@@ -282,6 +305,10 @@ sup {
 	#menu-button:focus ~ .navbar{
 		
 		max-height: none;
+	}
+
+	h1 {
+		font-size: 150%;
 	}
 
 	.navbar-element:focus > .navbar{
