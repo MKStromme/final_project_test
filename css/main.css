@@ -1,460 +1,331 @@
-*{
+* {
 	font-size: large;
 	font-family: verdana, sans-serif;
-	
 	padding: 0;
 	margin: 0;
 }
 
-h1{
-	
+h1 {
 	font-size: 200%;
-	
 	text-align: center;
-	
 	margin: 1em 0;
-	
 }
 
-h2{
-	
+h2 {
 	font-size: 150%;
-	
 }
 
-p{
-	
+p {
 	margin: 1em;
-	
 }
 
-li{
-	
+li {
 	margin: 1em;
-	
 }
 
-.main-header{
-	
+.main-header {
 	top: 0;
-	
 	max-height: 10vh;
 	width: 100%;
-	
 	background-color: #FFFFFF;
 	color: #000000;
-	
 	position: fixed;
-	
 	line-height: 10vh;
-	
-	
-	
 }
 
-#home{
-	
+#home {
 	float: left;
-	
 	text-align: left;
-	
 	height: 100%;
 	width: 10%;
-	
 }
-#home a{
-	
+
+#home a {
 	float: left;
 	padding-left: 10%;
 	height: 100%;
 	width: 100%;
-	
 	text-decoration: none;
 	color: #000000;
+}
 
-	
-}
-#home a:focus{
-	background-color: #EEEEEE;
-}
-#home a:hover{
+#home a:focus {
 	background-color: #EEEEEE;
 }
 
-.navbar{
+#home a:hover {
+	background-color: #EEEEEE;
+}
 
+.navbar {
 	float: right;
 	max-height: 10vh;
-	
 	width: 70%;
-
 }
-.navbar-element{
-	
+
+.navbar-element {
 	height: 10vh;
-	
 	width: 20%;
-	
 	text-align: center;
 	float: left;
-	
 	text-decoration: none;
 	color: #000000;
-	
-	
 }
-.navbar-element:focus{
+
+.navbar-element:focus {
 	background-color: #EEEEEE;
 }
-.navbar-element:hover{
+
+.navbar-element:hover {
 	background-color: #EEEEEE;
 }
-.navbar-element span{
-	
+
+.navbar-element span {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
 }
 
-#menu-button{
-	
+#menu-button {
 	display: none;
-	
 }
 
-main{
-	
+main {
 	top: 0;
 	width: 100%;
-	
 }
 
-#lander{
-	
+#lander {
 	padding-top: 10vh;
 	height: 90vh;
 	width: 100%;
-	
 	background-image: url("../bilder/phoneLander.png"), url("../bilder/blurryBackground.jpg");
 	background-attachment: scroll, fixed;
 	background-position: left bottom, center;
 	background-repeat: no-repeat, no-repeat;
 	background-size: 30%, 100% 100%;
-	
 	text-align: center;
 	color: #FFFFFF;
-	
 }
 
-#inner-lander{
-	
+#inner-lander {
 	margin: 15vh auto 10vh;
 	text-shadow: .2em .2em #000000;
-	
 }
 
-#inner-lander img{
-	
+#inner-lander img {
 	height: 5em;
-	
 }
 
-#inner-lander h1{
-	
+#inner-lander h1 {
 	font-size: 5em;
 	margin: 0;
-	
 	word-wrap: break-word;
-	
 }
 
-#inner-lander h2{
+#inner-lander h2 {
 	width: 45%;
 	margin: auto;
-
 }
 
-.ref{
+.ref {
 	color: inherit;
 	text-decoration: none;
 }
 
-#problem{
-
+#problem {
     background-color: #f2f2f2;
-	
 	padding: 10vh 0 4em;
-	
 }
 
-#inner-problem{
-	
+#inner-problem {
 	background: #FFFFFF;
-	
 	width: 60%;
 	margin: auto;
 	padding: 2em;
-	
 }
 
-#inner-problem img{
-	
+#inner-problem img {
 	display: block;
 	margin: auto;
-	
 }
 
-#target{
-	
+#target {
 	background-color: #16547d;
 	color: #FFFFFF;
-	
 	background-image: url(../bilder/downArrowBackgroundPrb.png);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 50px;
-	
 	padding: 10vh 0 2em;
-	
 }
 
-#target h2{
-	
+#target h2 {
 	margin: 1em;
-	
 }
 
-#target hr{
-	
+#target hr {
 	background-color: #003a63;
-	
 	margin: auto;
 	width: 50%;
 	height: 2px;
-	
 	border-style: none;
-	
 }
 
-#target-header{
-	
+#target-header {
 	text-align: center;
 	width: 60%;
 	margin: auto;
-	
 }
 
-#pact-examples{
-	
+#pact-examples {
 	width: 80%;
 	margin: 2em auto 0;
-	
 }
 
-.pact-examples{
-	
+.pact-examples {
 	width: 33%;
-	
 	float: left;
-	
 }
 
-#solution{
-	
+#solution {
 	background-color: #F2F2F2;
-	
 	background-image: url(../bilder/downArrowBackgroundTgt.png);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 50px;
-	
 	padding: 10vh 0 2em;
-	
 }
 
-#inner-solution{
-	
+#inner-solution {
 	background-color: #FFFFFF;
 	color: #000000;
-	
 	width: 60%;
 	margin: auto;
 	padding: 2em;
-	
 }
 
-#inner-solution img{
-	
+#inner-solution img {
 	width: 90%;
 	margin: auto;
 	display: block;
-	
 }
 
-#how{
-	
+#how {
 	background-image: url(../bilder/downArrowBackgroundPrb.png), url(../bilder/blurryBackground.jpg);
 	background-position: top center, center;
 	background-repeat: no-repeat;
 	background-size: 50px, 100% 100%;
-	
 	padding: 10vh 0 4em;
-	
 }
 
-#inner-how{
-	
+#inner-how {
 	background-color: #FFFFFF;
 	color: #000000;
-	
 	width: 60%;
 	margin: auto;
 	padding: 2em;
-	
 }
 
-#accessibility{
-	
+#accessibility {
 	background-color: #16a085;
 	color: #FFFFFF;
-	
 	padding: 10vh 0 2em;
-	
 }
 
-#inner-accessibility{
-	
+#inner-accessibility {
 	background-color: #0b4f42;
-	
 	width: 90%;
 	margin: auto;
 	padding: 2em;
-	
 }
 
-#referances{
-	
+#referances {
 	background-image: url(../bilder/random_grey_variations.png);
 	background-repeat: repeat;
-	
 	padding: 10vh 0 4em;
-	
 }
 
-#inner-referances{
-	
-	background: rgba(255, 255, 255, 0.90);
-    
+#inner-referances {
+	background: rgba(255, 255, 255, 0.90);    
 	width: 80%;
     margin: auto;
 	padding: 2em;
-	
 }
 
-.floatfix{
-
+.floatfix {
 	clear: both;
-
 }
 
 @media screen and (max-width:840px) {
-	
-	#home{
-		
+	#home {		
 		display: none;
-	
-	}
-	
-	.navbar{
-		
-		width: 100%;
-		clear: both;
-		
-		max-height: 0;
-		overflow: hidden;
-		
-	}
-	
-	.navbar-element{
-		
-		width: 100%;
-		background-color: #FFFFFF;
-		
 	}
 
-	#menu-button{
-		
-		display: initial;
-		
+	.navbar {		
+		width: 100%;
+		clear: both;		
+		max-height: 0;
+		overflow: hidden;		
 	}
-	
-	#menu-button:hover ~ .navbar{
-		
-		max-height: none;
-		
+
+	.navbar-element {		
+		width: 100%;
+		background-color: #FFFFFF;		
 	}
-	
+
+	#menu-button {		
+		display: initial;		
+	}
+
+	#menu-button:hover ~ .navbar{		
+		max-height: none;		
+	}
+
 	#menu-button:focus ~ .navbar{
 		
 		max-height: none;
-	
 	}
-	
-	.navbar-element:focus < .navbar{
-	
+
+	.navbar-element:focus > .navbar{
 		max-height: none;
-	
 	}
-	
-	.pact-examples{
-		
-		width: 100%;
-		
+
+	.pact-examples{		
+		width: 100%;		
 	}
 
 	#inner-lander h1{
-
 		font-size: 3em;
 	}
 
-	#inner-lander img{
-		
+	#inner-lander img{		
 		height: 3em;
-
 	}
-	
+
 	#inner-lander h2{
-
 		font-size: 1em;
-
 	}
 
-	#inner-problem{
-		
+	#inner-problem{		
 		width: 100%;
 		padding-left: 0;
-		padding-right: 0;
-		
+		padding-right: 0;		
 	}
-	
-	#inner-how{
-		
+
+	#inner-how{		
 		width: 100%;
 		padding-left: 0;
-		padding-right: 0;
-		
+		padding-right: 0;		
 	}
 
 	#inner-accessibility{
 		width: auto;
 	}
-	
+
 	#inner-solution{
-		
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
-	
 	}
-	
 }
