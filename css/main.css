@@ -204,9 +204,28 @@ sup {
 	margin: 2em auto 0;
 }
 
-.pact-examples {
+.readmore-area {
 	width: 33%;
 	float: left;
+}
+
+.readmore-input {
+	display: none;
+}
+
+.readmore-content {
+	display: none;
+}
+
+.readmore-label {
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.readmore-input:checked ~ p > .readmore-content {
+	display: block;
 }
 
 #solution {
@@ -315,8 +334,17 @@ sup {
 		max-height: none;
 	}
 
-	.pact-examples{		
-		width: 100%;		
+	.readmore-area {
+		width: 100%;
+		float: none;
+	}
+
+	.readmore-content {
+		display: inline-block;
+	}
+
+	.readmore-label {
+		display: none;
 	}
 
 	#inner-lander h1{
