@@ -154,17 +154,28 @@ main{
 
 #inner-lander img{
 	
-	height: 6em;
+	height: 5em;
 	
 }
 
 #inner-lander h1{
 	
-	font-size: 6em;
+	font-size: 5em;
 	margin: 0;
 	
 	word-wrap: break-word;
 	
+}
+
+#inner-lander h2{
+	width: 45%;
+	margin: auto;
+
+}
+
+.ref{
+	color: inherit;
+	text-decoration: none;
 }
 
 #problem{
@@ -399,7 +410,24 @@ main{
 		width: 100%;
 		
 	}
+
+	#inner-lander h1{
+
+		font-size: 3em;
+	}
+
+	#inner-lander img{
+		
+		height: 3em;
+
+	}
 	
+	#inner-lander h2{
+
+		font-size: 1em;
+
+	}
+
 	#inner-problem{
 		
 		width: 100%;
@@ -414,6 +442,10 @@ main{
 		padding-left: 0;
 		padding-right: 0;
 		
+	}
+
+	#inner-accessibility{
+		width: auto;
 	}
 	
 	#inner-solution{
