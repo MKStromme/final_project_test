@@ -224,6 +224,14 @@ sup {
 	text-decoration: underline;
 }
 
+.readmore-label:after {
+	content: 'Read more';
+}
+
+.readmore-input:checked ~ p > .readmore-label:after {
+	content: 'Hide';
+}
+
 .readmore-input:checked ~ p > .readmore-content {
 	display: block;
 }
