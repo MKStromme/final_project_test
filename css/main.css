@@ -17,12 +17,12 @@ h2 {
 
 p {
 	margin: 1em;
+	font-size: large;
+	line-height: 150%;
 }
 
 li {
 	margin: 1em;
-	font-size: large;
-	line-height: 150%;
 }
 
 .main-header {
@@ -130,9 +130,16 @@ main {
 	margin: auto;
 }
 
+sup {
+	margin-top: -10px;
+    display: inline-block;
+}
+
 .ref {
 	color: inherit;
 	text-decoration: none;
+	font-size: smaller;
+	line-height: 150%;
 }
 
 .article-content {
