@@ -286,6 +286,8 @@ sup {
 }
 
 #inner-references ol {
+	padding-left: 20px;
+
 }
 
 .floatfix {
