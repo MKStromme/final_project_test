@@ -2,7 +2,7 @@
     font-size: large;
     font-family: verdana, sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -286,7 +286,6 @@ sup {
 }
 
 #inner-references ol {
-    padding-left: 20px;
 }
 
 .floatfix {
