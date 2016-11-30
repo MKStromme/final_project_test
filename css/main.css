@@ -282,9 +282,10 @@ sup {
     background-image: url(../bilder/random_grey_variations.png);
     background-repeat: repeat;
     padding: 7vh 0 4em;
+	
 }
 
-#inner-referances ol {
+#inner-references ol {
     padding-left: 20px;
 }
 
